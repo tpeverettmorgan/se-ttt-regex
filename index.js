@@ -1,5 +1,3 @@
-const { match } = require("assert");
-
 function regex(expression, toTest) {
         console.log(
                 '\t',
