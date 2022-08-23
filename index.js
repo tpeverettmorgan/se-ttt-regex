@@ -122,6 +122,7 @@ function Lookarounds() {
         regex(/(?<!Everett) Morgan/, 'John Morgan');     // true
         regex(/(?<!Everett) Morgan/, 'Everett Morgan');  // false
 
+        // positive lookbehind match
         regexMatch(/(?<=Everett) (Morgan)/, 'Everett Morgan');
 }
 
